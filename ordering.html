@@ -2,16 +2,42 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>ordering</title>
-		<link rel="stylesheet" type="text/css" href="css/styling.css">
-	</head>	
+		<title>Bestilling</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
 	
 	<body>
 		<header>
-			<h1></h1>
+			<h1 id="order_h"> <u>Bestilling</u> </h1>
 		</header>
 		
 		<section>
+			
+			<p class="order_p">Her kan du legge inn bestilling på ønsket produkt(er). Bare fyll ut skjema<br>
+			med navn, e-post, telefonnummer, og produktnavn.</p>
+			
+			<form id="order_form" action="order.php" method="post">
+				
+				<label class="order_l">Navn:*</label>
+				<input type="text" name="name" required pattern="[A-z\s]+"> <br>
+				
+				<label class="order_l">Email:*</label>
+				<input type="email" name="email" required> <br>
+				
+				<label class="order_l">Telefon/mobil:*</label>
+				<input type="tel" name="phone" required> <br>
+				
+				<label class="order_l">Produkter og antall:*</label>
+				<input type="text" name="products" required> <br>
+				
+				<label class="order_l">Kommentarer/spørsmål:</label>
+				<input type="textarea" name="comments" rows="7" cols="50"> <br><br>
+				
+				<input type="submit" id="bestill" value="BESTILL">
+				
+			</form>
+			
+			<p class="order_p">Felt merket med * er påkrevd.</p>
 		</section>
 		
 		<section>
