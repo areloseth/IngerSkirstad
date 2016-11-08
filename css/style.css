@@ -1,4 +1,11 @@
-
+/* ---
+navbar
+--- */
+.navbar {
+	width: 70%;
+	list-style-type: none;
+	margin: auto;
+	padding: 0;
 
 /* ---
 Section for the order page
