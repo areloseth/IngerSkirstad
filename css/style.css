@@ -1,4 +1,16 @@
 /* ---
+Common features
+--- */
+body {
+	font: 18px Georgia, serif;
+}
+
+.wrapper {
+	width: 70%;
+	margin: auto;
+}
+
+/* ---
 navbar
 --- */
 .navbar {
