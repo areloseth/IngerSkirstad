@@ -13,7 +13,7 @@ function validate() {
 	var email = document.forms["order_form"]["email"].value;
 	var atPos = email.indexOf("@");
 	var periodPos = email.lastIndexOf(".");
-	if (atPos < 1 || dotpos < (atPos + 2) || (periodPos + 2) >= email.length) {
+	if (atPos < 1 || periodPos < (atPos + 2) || (periodPos + 2) >= email.length) {
 		alert("Det er ikke en gyldig email-adresse.");
 		return false;
 	}
@@ -22,6 +22,13 @@ function validate() {
 	var phone = document.forms["order_form"]["phone"].value;
 	if (!/^[0-9]+$/.test(phone)) {
 		alert("Det er ikke et gyldig telefonnummer.");
+		return false;
+	}
+	
+	// Validate products property
+	var products = document.forms["order_form"]["products"].value;
+	if (products == null || products == "") {
+		alert("Du må nesten skrive inn et produkt, takk.");
 		return false;
 	}
 	
