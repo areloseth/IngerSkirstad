@@ -5,6 +5,7 @@ Common features
 body {
 	font: 18px Georgia, serif;
 	background-color: #EEEEEE;
+	margin: 0px;
 }
 
 .wrapper {
@@ -13,11 +14,20 @@ body {
 }
 
 /* ---
+Header image
+--- */
+
+#header-img {
+	width: 100%;
+}
+
+/* ---
 Navbar
 --- */
 * { box-sizing: border-box }
 
 #navbar {
+	margin-top: -4px;
 	float: left;
 	border: 1px solid #26734d;
 	border-top: 1px solid #26734d;
