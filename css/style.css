@@ -3,6 +3,7 @@ Common features
 --- */
 
 body {
+	overflow-y: scroll;
 	font: 18px Georgia, serif;
 	background-color: #EEEEEE;
 	margin: 0px;
