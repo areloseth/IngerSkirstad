@@ -15,23 +15,37 @@ body {
 /* ---
 Navbar
 --- */
+* { box-sizing: border-box }
 
-.navbar {
-	width: 70%;
-	list-style-type: none;
-	margin: auto;
+#navbar {
+	float: left;
+	border: 1px solid #26734d;
+	border-top: 1px solid #26734d;
+	border-radius: 0px;
+	overflow: hidden;
+	width: 100%;
+}
+
+#navbar ul {
+	margin: 0;
 	padding: 0;
+	list-style: none;
+}
+
+#navbar ul li {
+	float: left;
+	padding: 15px 15px;
+	width: 20%;
+	background: #001a33;
+	border-left: 1px solid #26734d;
+	border-right: 1px solid #26734d;
 }
 	
-li {
-	float: left;
-}
-
-li a {
+#navbar ul li a {
 	display: block;
-	text-align: center;
-	padding: 14px 16px;
+	color: #77b300;
 	text-decoration: none;
+	text-align: center;
 }
 
 /* ---
