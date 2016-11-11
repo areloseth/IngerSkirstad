@@ -56,7 +56,7 @@ Navbar
 	float: left;
 	width: 20%;
 	background: #001a33;
-	border: 2px solid #26734d;
+	border-bottom: 2px solid #26734d;
 	border-top: 2px solid #26734d;
 	border-left: 1px solid #26734d;
 	border-right: 1px solid #26734d;
@@ -75,10 +75,14 @@ Navbar
 	
 #navbar ul li:hover {
 	color: #0f5b08;
-	border-top: 4px solid #3bdd2c;
+	border-top: 2px solid #3bdd2c;
 	border-left: 2px solid #3bdd2c;
 	border-right: 2px solid #3bdd2c;
-	border: 4px solid #3bdd2c;
+	border-bottom: 2px solid #3bdd2c;
+}
+
+#navbar ul li a:active {
+	background: #394f43;
 }
 
 /* Dropdown Menu */
