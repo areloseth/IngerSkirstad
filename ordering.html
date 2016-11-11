@@ -9,29 +9,38 @@
 	<body>
 		<div class="wrapper">
 			<header>
-				<h1 id="order_h"> <u>Bestilling</u> </h1>
+				<img id="header-img" src="img/header-img.png" />
+				<div id="navbar">
+					<ul>
+						<li><a href="homepage.html">Hjem</a></li>
+						<li><a href="products.html">Produkter</a></li>
+						<li><a href="about.html">Om Kunstneren</a></li>
+						<li><a href="ordering.html">Bestilling</a></li>
+						<li><a href="contact.html">Kontakt</a></li>
+					</ul>
+				</div>
 			</header>
 			
 			<section>
 				<p class="order_p">Her kan du legge inn bestilling på ønsket produkt(er). Bare fyll ut skjema<br>
 				med navn, e-post, telefonnummer, og produktnavn.</p>
 				
-				<form id="order_form" name="order_form" action="php/sendEmail.php" method="post" <!--onsubmit="location.href='orderCompleted.html';"-->
+				<form id="order_form" name="order_form" action="php/sendEmail.php" method="post" onsubmit="return validate();">
 					
 					<label class="order_l">Navn:*</label>
-					<input type="text" name="name" required pattern="[A-z\s]+"> <br><br>
+					<input type="text" name="name" <!--required pattern="[A-z\s]+"--> <br><br>
 					
 					<label class="order_l">Email:*</label>
-					<input type="email" name="email" required> <br><br>
+					<input type="email" name="email" <!--required--> <br><br>
 					
 					<label class="order_l">Telefon/mobil:*</label>
-					<input type="tel" name="phone" required> <br><br>
+					<input type="tel" name="phone" <!--required--> <br><br>
 					
 					<label class="order_l">Produkter og antall:*</label>
-					<input type="text" name="products" required> <br><br>
+					<input type="text" name="products" <!--required--> <br><br>
 					
 					<label class="order_l">Kommentarer/spørsmål:</label>
-					<input type="textarea" name="comments" rows="5" cols="5"> <br><br>
+					<textarea name="comments" id="order_comments"></textarea> <br><br>
 					
 					<input type="submit" id="bestill" value="BESTILL">
 					
@@ -39,10 +48,10 @@
 				
 				<p class="order_p">Felt merket med * er påkrevd.</p>
 			</section>
-			
-			<footer>
-			</footer>
 		</div>
+		
+		<script type="text/javascript" src="js/orderPage.js"> </script>
+		
 	</body>
 	
 </html>
