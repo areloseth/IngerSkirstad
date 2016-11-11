@@ -34,6 +34,15 @@ img {
 }
 
 /* ---
+Gallery
+--- */
+
+#gallery img {
+	width: 20%;
+	margin:10px;
+}
+
+/* ---
 Navbar
 --- */
 * { box-sizing: border-box }
@@ -46,6 +55,7 @@ Navbar
 	border-radius: 0px;
 	overflow: hidden;
 	width: 100%;
+	margin-bottom: 30px;
 }
 
 #navbar ul {
