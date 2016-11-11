@@ -3,6 +3,7 @@ Common features
 --- */
 
 body {
+	overflow-y: scroll;
 	font: 18px Georgia, serif;
 	background-color: #EEEEEE;
 	margin: 0px;
@@ -14,11 +15,20 @@ body {
 }
 
 /* ---
+Header image
+--- */
+
+#header-img {
+	width: 100%;
+}
+
+/* ---
 Navbar
 --- */
 * { box-sizing: border-box }
 
 #navbar {
+	margin-top: -4px;
 	float: left;
 	border: 1px solid #26734d;
 	border-top: 1px solid #26734d;
@@ -48,6 +58,73 @@ Navbar
 	text-decoration: none;
 	text-align: center;
 }
+
+.dropdownButton {
+	
+}
+
+/* ---
+Products
+--- */
+
+#jeweleryPicture{
+	position: relative;
+	left: 2%;
+	width: 250px;
+}
+#accessoriesPicture{
+	position: relative;
+	left: 2%;
+	width: 250px;
+	top: 55px;
+}
+#decorPicture{
+	position: relative;
+	left: calc(2% + 0px);
+	width: 200px;
+	top: 40px;
+	margin-bottom: -100px;
+}
+#jeweleryText{
+	position: relative;
+	left: calc(2% + 300px);
+	top: -180px;
+    margin-bottom: -180px;
+}
+#accessoriesText{
+	position: relative;
+	left: calc(2% + 300px);
+	top: -130px;
+    margin-bottom: -130px;
+}
+#decorText{
+	position: relative;
+	left: calc(2% + 300px);
+	top: -140px;
+    margin-bottom: -100px;
+}
+
+/* ---
+Contact page
+--- */
+
+#headerContact{
+      position: relative;
+      left: calc(2% + 215px);
+      top: 50px;
+}
+#modelPicture{
+      position: relative;
+      left: 2%;
+      top: 30px;
+}
+
+#contactInfo{
+      position: relative;
+      left: calc(2% + 215px);
+      bottom: 170px;
+}
+
 
 /* ---
 Order page
@@ -94,7 +171,7 @@ input[type=tel] {
 	padding: 5px;
 }
 
-input[type=textarea] {
+#order_comments {
 	margin-left: 10px;
 	margin-top: 5px;
 	width: 500px;
