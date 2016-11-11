@@ -98,7 +98,7 @@ Navbar
 .dropdownContent {
 	display: none;
 	position: relative;
-	margin-top: 0px;
+	margin-top: 3px;
 	background-color: #30473f;
 	min-width: 100%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
