@@ -85,8 +85,9 @@ Navbar
 	background: #394f43;
 }
 
-/* Dropdown Menu */
-
+/* ---
+Dropdown Menu
+--- */
 .dropdownMenu {
 	position: relative;
 }
