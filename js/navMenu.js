@@ -9,7 +9,7 @@ document.getElementById("navMenu").innerHTML =
 				"<a class='dropdownButton' href='products.html' id='productsnav'>Produkter</a>" +
 				"<div id='dropdownContent' class='dropdownContent'>" +
 					"<a href='necklacesProducts.html'>Smykker</a>" +
-					"<a href='accessoriesProducts.html'>Tilbehør</a>" +
+					"<a href='accessoriesProducts.html'>TilbehÃ¸r</a>" +
 					"<a href='homeDecorProducts.html'>Dekorasjoner</a>" +
 				"</div>" +
 			"</li>" +
