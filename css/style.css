@@ -81,7 +81,11 @@ Navbar
 	border-bottom: 2px solid #3bdd2c;
 }
 
-#navbar ul li a:active {
+body#home a#homenav,
+body#products a#productsnav,
+body#ordering a#ordernav,
+body#about a#aboutnav,
+body#contact a#contactnav {
 	background: #394f43;
 }
 
