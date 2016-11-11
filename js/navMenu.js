@@ -1,7 +1,7 @@
 
 // Creates the HTML for the navigation bar
 document.getElementById("navMenu").innerHTML =
-	"<img id='header-img' src='img/header-img.png' />" +
+	"<img id='header-img' src='img/header-img.jpg'>" +
 	"<div id='navbar'>" +
 		"<ul>" +
 			"<li><a href='homepage.html' id='homenav'>Hjem</a></li>" +
