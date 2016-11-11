@@ -15,12 +15,17 @@ body {
 }
 
 /* ---
+Images
+--- */
+
+
+/* ---
 Header image
 --- */
 
 #header-img {
 	width: 100%;
-	
+	border: none;
 }
 
 /* ---
@@ -46,7 +51,7 @@ Navbar
 
 #navbar ul li {
 	float: left;
-	padding: 15px 15px;
+	padding: 3px 3px;
 	width: 20%;
 	background: #001a33;
 	border-left: 1px solid #26734d;
@@ -56,12 +61,16 @@ Navbar
 #navbar ul li a {
 	display: block;
 	color: #77b300;
+	padding: 12px 12px;
+	font-weight: bold;
 	text-decoration: none;
 	text-align: center;
 }
 	
-#nav ul li a:hover,
-#nav ul li:hover > a {
+#navbar ul li a:hover {
+	color: #0f5b08;
+	background: #3bdd2c;
+}
 	
 /* ---
 Links
