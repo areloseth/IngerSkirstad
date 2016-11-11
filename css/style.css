@@ -130,7 +130,9 @@ Homepage
 --- */
 
 .mySlides{
+	position: relative;
 	width: 60%;
+	left: 17.5%;
 }
 
 
