@@ -87,10 +87,6 @@ Navbar
 	position: relative;
 }
 
-.dropdownButton:hover, .dropdownButton:focus {
-	background-color: #3e8e41;
-}
-
 #dropdownContent a:hover {
 	background-color: #226622;
 }
