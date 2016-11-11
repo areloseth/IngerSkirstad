@@ -125,36 +125,36 @@ Products
 
 #jeweleryPicture {
 	position: relative;
-	left: 17.5%;
+	left: 2%;
 	width: 250px;
 }
 #accessoriesPicture {
 	position: relative;
-	left: 17.5%;
+	left: 2%;
 	width: 250px;
 	top: 55px;
 }
 #decorPicture {
 	position: relative;
-	left: calc(15% + 80px);
+	left: calc(2% + 50px);
 	width: 200px;
 	top: 40px;
 }
 #jeweleryText {
 	position: relative;
-	left: calc(17% + 300px);
+	left: calc(2% + 300px);
 	top: -180px;
     margin-bottom: -180px;
 }
 #accessoriesText {
 	position: relative;
-	left: calc(17% + 300px);
+	left: calc(2% + 300px);
 	top: -130px;
     margin-bottom: -130px;
 }
 #decorText {
 	position: relative;
-	left: calc(17% + 300px);
+	left: calc(2% + 300px);
 	top: -240px;
     margin-bottom: -100px;
 }
