@@ -39,6 +39,7 @@ Navbar
 
 #navbar {
 	margin-top: -4px;
+	margin-bottom: 30px;
 	float: left;
 	border: 1px solid #26734d;
 	border-top: 1px solid #26734d;
