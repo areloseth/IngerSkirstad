@@ -59,6 +59,9 @@ Navbar
 	text-align: center;
 }
 
+#nav ul li a:hover,
+#nav ul li:hover > a { }
+
 /* Dropdown Menu */
 
 .dropdownMenu {
@@ -89,9 +92,25 @@ Navbar
     display: block;
 }
 
-/* Used to show the dropdown menu */
+/* Used by JS to show the dropdown menu */
 .show {
 	display: block;
+}
+	
+/* ---
+Links
+--- */
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: yellow;
 }
 
 /* ---
@@ -100,38 +119,37 @@ Products
 
 #jeweleryPicture {
 	position: relative;
-	left: 2%;
+	left: 17.5%;
 	width: 250px;
 }
 #accessoriesPicture {
 	position: relative;
-	left: 2%;
+	left: 17.5%;
 	width: 250px;
 	top: 55px;
 }
 #decorPicture {
 	position: relative;
-	left: calc(2% + 0px);
+	left: calc(15% + 80px);
 	width: 200px;
 	top: 40px;
-	margin-bottom: -100px;
 }
 #jeweleryText {
 	position: relative;
-	left: calc(2% + 300px);
+	left: calc(17% + 300px);
 	top: -180px;
     margin-bottom: -180px;
 }
 #accessoriesText {
 	position: relative;
-	left: calc(2% + 300px);
+	left: calc(17% + 300px);
 	top: -130px;
     margin-bottom: -130px;
 }
 #decorText {
 	position: relative;
-	left: calc(2% + 300px);
-	top: -140px;
+	left: calc(17% + 300px);
+	top: -240px;
     margin-bottom: -100px;
 }
 
