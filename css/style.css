@@ -20,6 +20,7 @@ Header image
 
 #header-img {
 	width: 100%;
+	
 }
 
 /* ---
@@ -59,6 +60,25 @@ Navbar
 	text-align: center;
 }
 	
+#nav ul li a:hover,
+#nav ul li:hover > a {
+	
+/* ---
+Links
+--- */
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: yellow;
+}
+
 /* ---
 Products
 --- */
