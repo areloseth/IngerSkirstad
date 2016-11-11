@@ -19,7 +19,7 @@ Images
 --- */
 img {
 	border: 1px solid;
-	box-shadow: -10px 25px 40px 0px;
+	box-shadow: -10px 25px 40px 0px rgba(0, 0, 0, 1);
 }
 
 /* ---
@@ -81,7 +81,11 @@ Navbar
 	border-bottom: 2px solid #3bdd2c;
 }
 
-#navbar ul li a:active {
+body#home a#homenav,
+body#products a#productsnav,
+body#ordering a#ordernav,
+body#about a#aboutnav,
+body#contact a#contactnav {
 	background: #394f43;
 }
 

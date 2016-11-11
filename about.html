@@ -6,17 +6,24 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>	
 	
-	<body>
+	<body id="about">
 		<div class="wrapper">
 			<header>
 				<img id="header-img" src="img/header-img.png" />
 				<div id="navbar">
 					<ul>
-						<li><a href="homepage.html">Hjem</a></li>
-						<li><a href="products.html">Produkter</a></li>
-						<li><a href="about.html">Om Kunstneren</a></li>
-						<li><a href="ordering.html">Bestilling</a></li>
-						<li><a href="contact.html">Kontakt</a></li>
+						<li><a href="homepage.html" id="homenav">Hjem</a></li>
+						<li onmouseover="toggleDropdown()" onmouseout="toggleDropdown()" class="dropdownMenu">
+							<a class="dropdownButton" href="products.html" id="productsnav">Produkter</a>
+							<div id="dropdownContent" class="dropdownContent">
+								<a href="necklacesProducts.html">Smykker</a>
+								<a href="accessoriesProducts.html">Tilbehør</a>
+								<a href="homeDecorProducts.html">Dekorasjoner</a>
+							</div>
+						</li>
+						<li><a href="about.html" id="aboutnav">Om Kunstneren</a></li>
+						<li><a href="ordering.html" id="ordernav">Bestilling</a></li>
+						<li><a href="contact.html" id="contactnav">Kontakt</a></li>
 					</ul>
 				</div>
 			</header>
