@@ -15,7 +15,7 @@
 			"Produkter - antall: $products\n".
 			"Kommentar: $comments";
 	
-	$to = "test@test.com";	
+	$to = "test@test.com";
 	$headers = "From: $email_from \r\n";
 	$headers .= "Reply-To: $buyer_email \r\n";
 	

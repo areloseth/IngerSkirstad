@@ -1,4 +1,3 @@
-
 function validate() {
 	console.log("Validation is now running");
 	
