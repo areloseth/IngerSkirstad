@@ -153,7 +153,7 @@ Products
 }
 #decorPicture {
 	position: relative;
-	left: calc(2% + 50px);
+	left: calc(2% + 25px);
 	width: 200px;
 	top: 40px;
 }
