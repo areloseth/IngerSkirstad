@@ -14,7 +14,7 @@ document.getElementById("navMenu").innerHTML =
 				"</div>" +
 			"</li>" +
 			"<li><a href='about.html' id='aboutnav'>Om Kunstneren</a></li>" +
-			"<li><a href='order.html' id='ordernav'>Bestilling</a></li>" +
+			"<li><a href='order.html' id='ordernav'>Bestill</a></li>" +
 			"<li><a href='contact.html' id='contactnav'>Kontakt</a></li>" +
 		"</ul>" +
 	"</div>";
