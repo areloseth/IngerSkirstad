@@ -135,6 +135,23 @@ Homepage
 	left: 17.5%;
 }
 
+/* ---
+Products
+--- */
+
+#portrait {
+	position: relative;
+	left: 2%;
+	top: 40px;
+	width: 250px;
+}
+
+#aboutText {
+	position: relative;
+	left: calc(2% + 265px);
+	top: -250px;
+	margin-bottom: -250px;
+}
 
 /* ---
 Products
