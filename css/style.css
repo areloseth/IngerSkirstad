@@ -135,6 +135,12 @@ Homepage
 	left: 17.5%;
 }
 
+#forsideModell{
+	position: relative;
+	width: 25%;
+	left: 78%;
+	top: -150px;
+}
 /* ---
 Products
 --- */
