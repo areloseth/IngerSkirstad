@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)file:///Users/Hkonsg/IngerSkirstad/order.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<title>Bestill</title>
+		<link rel="stylesheet" type="text/css" href="./Bestill_files/style.css">
+	</head>
+	
+	<body id="ordering">
+		<div class="wrapper">
+		
+			<!-- Navigation bar is loaded by javascript -->
+			<header id="navMenu"><div class="header-img"><img src="./Bestill_files/header-img.jpg"><p>Inger Skirstad<br>Former i glass</p></div><div id="navbar"><ul><li><a href="file:///Users/Hkonsg/IngerSkirstad/homepage.html" id="homenav">Hjem</a></li><li onmouseover="toggleDropdown()" onmouseout="toggleDropdown()" class="dropdownMenu"><a class="dropdownButton" href="file:///Users/Hkonsg/IngerSkirstad/products.html" id="productsnav">Produkter</a><div id="dropdownContent" class="dropdownContent"><a href="file:///Users/Hkonsg/IngerSkirstad/necklacesProducts.html">Smykker</a><a href="file:///Users/Hkonsg/IngerSkirstad/accessoriesProducts.html">Tilbehør</a><a href="file:///Users/Hkonsg/IngerSkirstad/homeDecorProducts.html">Dekorasjoner</a></div></li><li><a href="file:///Users/Hkonsg/IngerSkirstad/about.html" id="aboutnav">Om Kunstneren</a></li><li><a href="file:///Users/Hkonsg/IngerSkirstad/order.html" id="ordernav">Bestill</a></li><li><a href="file:///Users/Hkonsg/IngerSkirstad/contact.html" id="contactnav">Kontakt</a></li></ul></div></header>
+			
+			<section>
+				<br><br><br>
+				<p class="order_p">Her kan du legge inn bestilling på ønsket produkt(er). Bare fyll ut skjema<br>
+				med navn, e-post, telefonnummer, og produktnavn.</p>
+				
+				<form id="order_form" name="order_form" action="file:///Users/Hkonsg/IngerSkirstad/php/sendEmail.php" method="post" onsubmit="return validate();">
+					
+					<label class="order_l">Navn:*</label>
+					<input type="text" name="name" <!--required="" pattern="[A-å\s]+" --=""> <br><br>
+					
+					<label class="order_l">Email:*</label>
+					<input type="email" name="email" <!--required--=""> <br><br>
+					
+					<label class="order_l">Telefon/mobil:*</label>
+					<input type="tel" name="phone" <!--required--=""> <br><br>
+					
+					<label class="order_l">Produkt(er) - antall:*</label>
+					<input type="text" name="products" id="products" <!--required--=""> <br><br>
+
+					<label class="order_l">Anheng:*</label><br>
+					<div id="radioWrapper">
+						<input type="radio" name="anheng" class="radioButtons" value="Sølvklave" checked="" required=""> <div class="radioText">Sølvklave (620,-)</div>
+						<input type="radio" name="anheng" class="radioButtons" value="Sølvlenke"> <div class="radioText">Sølvlenke (150,-)</div>
+						<input type="radio" name="anheng" class="radioButtons" value="Ingen"> <div class="radioText">Ingen</div>
+					</div>
+					
+					<br><br><br><br>
+					<label class="order_l">Kommentarer/spørsmål:</label>
+					<textarea name="comments" id="order_comments"></textarea> <br><br>
+					
+					<input type="submit" id="bestill" value="BESTILL">
+				</form>
+				
+				<p class="order_p">Felt merket med * er påkrevd.</p>
+			</section>
+		</div>
+		
+		<script type="text/javascript" src="./Bestill_files/navMenu.js"> </script>
+		<script type="text/javascript" src="./Bestill_files/orderValidation.js"> </script>
+		<script> 
+			function orderFunction(text) {
+			    document.getElementById("product").value = text;
+			}
+		</script>
+	
+	
+	
+
+</body></html>

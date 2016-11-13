@@ -35,7 +35,7 @@ PURPOSE: The order page, where a customer inputs details and orders a product.
 					<input type="tel" name="phone" <!--required--> <br><br>
 					
 					<label class="order_l">Produkt(er) - antall:*</label>
-					<input type="text" name="products" <!--required--> <br><br>
+					<input type="text" name="products" id = "products" <!--required--> <br><br>
 
 					<label class="order_l">Anheng:*</label><br>
 					<div id="radioWrapper">
@@ -49,7 +49,6 @@ PURPOSE: The order page, where a customer inputs details and orders a product.
 					<textarea name="comments" id="order_comments"></textarea> <br><br>
 					
 					<input type="submit" id="bestill" value="BESTILL">
-					
 				</form>
 				
 				<p class="order_p">Felt merket med * er påkrevd.</p>
@@ -58,6 +57,12 @@ PURPOSE: The order page, where a customer inputs details and orders a product.
 		
 		<script type="text/javascript" src="js/navMenu.js"> </script>
 		<script type="text/javascript" src="js/orderValidation.js"> </script>
+		<script> 
+			function orderFunction(text) {
+			    document.getElementById("product").value = text;
+			}
+		</script>
+	</body>
 	</body>
 	
 </html>
