@@ -39,5 +39,8 @@ function validate() {
 		return false;
 	}
 	
+	// Send user to order completed page
+	header('Location: orderCompleted.html');
+	
 	return true;
 }

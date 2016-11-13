@@ -22,7 +22,7 @@ PURPOSE: The order page, where a customer inputs details and orders a product.
 				<br><br><br>
 				<p class="order_p">Her kan du legge inn bestilling på ønsket produkt(er). Bare fyll ut skjema<br>
 				med navn, e-post, telefonnummer, og produktnavn.</p>
-				
+				<!-- Form with validation, sends info by mail -->
 				<form id="order_form" name="order_form" action="php/sendEmail.php" method="post" onsubmit="return validate();">
 					
 					<label class="order_l">Navn:*</label>
@@ -58,11 +58,6 @@ PURPOSE: The order page, where a customer inputs details and orders a product.
 		
 		<script type="text/javascript" src="js/navMenu.js"> </script>
 		<script type="text/javascript" src="js/orderValidation.js"> </script>
-		<script> 
-			function orderFunction(text) {
-			    document.getElementById("product").value = text;
-			}
-		</script>
 	</body>
 	</body>
 	
