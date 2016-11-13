@@ -1,0 +1,56 @@
+body {
+	background-color: rgb(250, 250, 250);
+	width: 780px;
+    margin: auto;
+	font-family: "Georgia" , serif;
+	line-height: 1.5em;
+	font-size: 18px;
+}
+
+section {
+	border: 1px solid;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-bottom: 2em;
+}
+
+header {
+	margin-bottom: 3em;
+}
+
+h1, h2, h3 {
+	margin-bottom: 0;
+}
+
+p, ul {
+    font-size: 1em;
+    line-height: 1.5em;
+	max-width: 70em;
+}
+
+figure {
+	margin: auto;
+	margin-left: 100px;
+	margin-top: 25px;
+	margin-bottom:30px;
+}
+
+figcaption {
+	font-style: italic;
+	text-align: center;
+	margin-right: 100px;
+}
+
+#nav {
+	margin-left: 55px;
+}
+
+table {
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+table, th, td {
+	border: 2px solid black;
+	padding: 7px;
+}
