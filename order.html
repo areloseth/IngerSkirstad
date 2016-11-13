@@ -34,14 +34,17 @@ PURPOSE: The order page, where a customer inputs details and orders a product.
 					<label class="order_l">Telefon/mobil:*</label>
 					<input type="tel" name="phone" <!--required--> <br><br>
 					
-					<label class="order_l">Produkter og antall:*</label>
+					<label class="order_l">Produkt(er) - antall:*</label>
 					<input type="text" name="products" <!--required--> <br><br>
 
-					<label class="order_l">Angheng:*</label><br>
-					<input type="radio" name="anheng" value="Sølvklave" checked> <div id = "silverText">Sølvklave (620,-)</div>
-					<input type="radio" name="anheng" class = "radioButtons" value="Sølvlenke"> <div class = "radioText">Sølvlenke (150,-)</div>
-					<input type="radio" name="anheng" class = "radioButtons" value="ingen"> <div class = "radioText">ingen</div> <br>
+					<label class="order_l">Anheng:*</label><br>
+					<div id="radioWrapper">
+						<input type="radio" name="anheng" class = "radioButtons" value="Sølvklave" checked required> <div class = "radioText">Sølvklave (620,-)</div>
+						<input type="radio" name="anheng" class = "radioButtons" value="Sølvlenke"> <div class = "radioText">Sølvlenke (150,-)</div>
+						<input type="radio" name="anheng" class = "radioButtons" value="Ingen"> <div class = "radioText">Ingen</div>
+					</div>
 					
+					<br><br><br><br>
 					<label class="order_l">Kommentarer/spørsmål:</label>
 					<textarea name="comments" id="order_comments"></textarea> <br><br>
 					
