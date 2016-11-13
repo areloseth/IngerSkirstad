@@ -12,32 +12,62 @@
 			<!-- Navigation bar is loaded by javascript -->
 			<header id="navMenu"></header>
 			
-			<h2>Smykker</h2>
-			<div class="img">
-				<a target="_blank" href="img/Smykke1_proff.jpeg">
-					<img src="img/Smykke1_proff.jpeg" width="100%">
-				</a>
-				<div class="desc">BeskrivelseBeskrivelseBeskrivelse
-				BeskrivelseBeskrivelseBeskrivelse
-				BeskrivelseBeskrivelseBeskrivelse
-				Pris:</div>
+			<div class="gallery">
+				<h2>Smykker</h2>
+				
+				<div class="pic">
+					<img src="img/Smykke1_proff.jpeg" onclick="onClick(this)" class="img-opacity">
+				</div>
+				
+				<div class="pic">
+					<img src="img/Smykke2_proff.jpeg" onclick="onClick(this)" class="img-opacity">
+				</div>
+				
+				<div class="pic">
+					<img src="img/Smykke3_proff.jpeg" onclick="onClick(this)" class="img-opacity">
+				</div>
+				
+				<div class="pic">
+					<img src="img/Smykke1_proff.jpeg" onclick="onClick(this)" class="img-opacity">
+				</div>
+				
+				<div class="pic">
+					<img src="img/Smykke2_proff.jpeg" onclick="onClick(this)" class="img-opacity">
+				</div>
+				
+				<div class="pic">
+					<img src="img/Smykke3_proff.jpeg" onclick="onClick(this)" class="img-opacity">
+				</div>
+				
+				<div class="pic">
+					<img src="img/Smykke1_proff.jpeg" onclick="onClick(this)" class="img-opacity">
+				</div>
+				
+				<div class="pic">
+					<img src="img/Smykke2_proff.jpeg" onclick="onClick(this)" class="img-opacity">
+				</div>
+				
+				<div class="pic">
+					<img src="img/Smykke3_proff.jpeg" onclick="onClick(this)" class="img-opacity">
+				</div>
+				
 			</div>
-			<div class="img">
-				<a target="_blank" href="img/Smykke2_proff.jpeg">
-					<img src="img/Smykke2_proff.jpeg" width="100%">
-				</a>
-				<div class="desc">legg til beskrivelse...</div>
+
+			<div id="pop" class="popout" onclick="this.style.display='none'">
+				<span class="gallery">&times;</span>
+				<div class="img-zoom">
+					<img id="img01" style="width:100%">
+				</div>
 			</div>
-			<div class="img">
-				<a target="_blank" href="img/Smykke3_proff.jpeg">
-					<img src="img/Smykke3_proff.jpeg" width="100%">
-				</a>
-				<div class="desc">legg til beskrivelse...</div>
-			</div>
-			
+						
 		</div>
 		
 		<script type="text/javascript" src="js/navMenu.js"> </script>
+		<script>
+			function onClick(element) {
+				document.getElementById("img01").src = element.src;
+				document.getElementById("pop").style.display = "block";}
+		</script>
 	</body>
 	
 </html>
