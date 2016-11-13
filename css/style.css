@@ -202,6 +202,13 @@ a:focus { text-decoration: none; color:purple; }
     margin-bottom: -100px;
 }
 
+#caption {
+    margin: auto;
+    display: block;
+    text-align: center;
+    color: black;
+}
+
 /* ---
 Contact page
 --- */
