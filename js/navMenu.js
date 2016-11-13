@@ -7,7 +7,10 @@ PURPOSE: Handle the loading and dropdown menu of the navigation bar
 
 // Creates the HTML for the navigation bar
 document.getElementById("navMenu").innerHTML =
-	"<img id='header-img' src='img/header-img.jpg'>" +
+	"<div class='header-img'>" +
+		"<img src='img/header-img.jpg'>" +
+		"<p>Inger Skirstad<br />Former i glass</p>" +
+	"</div>" +
 	"<div id='navbar'>" +
 		"<ul>" +
 			"<li><a href='homepage.html' id='homenav'>Hjem</a></li>" +
