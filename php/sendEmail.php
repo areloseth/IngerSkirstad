@@ -10,16 +10,18 @@
 	$buyer_email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$products = $_POST['products'];
+	$anheng = $_POST['anheng'];
 	$comments = $_POST['comments'];
 	
-	$email_from = 'test@test.com';
+	$email_from = 'inger.skirstad@online.no';
 	$email_subject = "Ny bestilling";
 	$email_body = "Du har fått en ny bestilling fra $name.\n".
 			"Telefonnummer: $phone\n".
 			"Produkter - antall: $products\n".
+			"Angeng: $angeng\n".
 			"Kommentar: $comments";
 	
-	$to = "test@test.com";
+	$to = "inger.skirstad@online.no";
 	$headers = "From: $email_from \r\n";
 	$headers .= "Reply-To: $buyer_email \r\n";
 	
