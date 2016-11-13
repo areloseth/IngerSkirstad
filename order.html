@@ -26,16 +26,20 @@ PURPOSE: The order page, where a customer inputs details and orders a product.
 				<form id="order_form" name="order_form" action="php/sendEmail.php" method="post" onsubmit="return validate();">
 					
 					<label class="order_l">Navn:*</label>
-					<input type="text" name="name" <!--required pattern="[A-å\s]+"--> <br><br>
+					<input type="text" name="name" required pattern="[A-zæøå\s]+"> <br><br>
 					
 					<label class="order_l">Email:*</label>
-					<input type="email" name="email" <!--required--> <br><br>
+					<input type="email" name="email" required> <br><br>
 					
 					<label class="order_l">Telefon/mobil:*</label>
-					<input type="tel" name="phone" <!--required--> <br><br>
+					<input type="tel" name="phone" required> <br><br>
 					
 					<label class="order_l">Produkt(er) - antall:*</label>
+<<<<<<< HEAD
 					<input type="text" name="products" id = "products" <!--required--> <br><br>
+=======
+					<input type="text" name="products" required> <br><br>
+>>>>>>> origin/master
 
 					<label class="order_l">Anheng:*</label><br>
 					<div id="radioWrapper">
