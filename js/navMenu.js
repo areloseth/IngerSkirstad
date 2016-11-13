@@ -1,3 +1,9 @@
+/*
+FILE NAME: js/navMenu.js
+WRITTEN BY: Are Løseth (Navigation bar HTML), Andreas Øium (Javascript implementation)
+WHEN: November 2016
+PURPOSE: Handle the loading and dropdown menu of the navigation bar
+*/
 
 // Creates the HTML for the navigation bar
 document.getElementById("navMenu").innerHTML =

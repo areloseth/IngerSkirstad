@@ -1,5 +1,13 @@
+/*
+FILE NAME: js/orderValidation.js
+WRITTEN BY: Andreas Øium
+WHEN: November 2016
+PURPOSE: Client-side validation of the order page through Javascript
+*/
+
+// Returns true if validation is successful
 function validate() {
-	console.log("Validation is now running");
+	console.log("JS validation is now running");
 	
 	// Validate name property
 	var name = document.forms["order_form"]["name"].value;
@@ -12,7 +20,7 @@ function validate() {
 	var email = document.forms["order_form"]["email"].value;
 	var atPos = email.indexOf("@");
 	var periodPos = email.lastIndexOf(".");
-	if (atPos < 1 || periodPos < (atPos + 2) || (periodPos + 2) >= email.length) {
+	if (atPos < 1 || periodPos < (atPos + 2)) {
 		alert("Det er ikke en gyldig email-adresse.");
 		return false;
 	}

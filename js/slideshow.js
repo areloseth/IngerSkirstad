@@ -1,3 +1,10 @@
+/*
+FILE NAME: js/slideshow.js
+WRITTEN BY: Håkon Grini
+WHEN: November 2016
+PURPOSE: Handle the slideshow on the home page
+*/
+
 var x = document.getElementsByClassName("mySlides");
 var myIndex = Math.floor(Math.random()*x.length);
 carousel();

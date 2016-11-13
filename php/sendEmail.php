@@ -1,7 +1,11 @@
 <?php
-
-	// Script for sending email after submitting the order form
-
+	/*
+	FILE NAME: php/sendEmail.php
+	WRITTEN BY: Andreas Øium
+	WHEN: November 2016
+	PURPOSE: Script for sending email after submitting the order form. As HTML and JS can't do that, this PHP script will handle it
+	*/
+	
 	$name = $_POST['name'];
 	$buyer_email = $_POST['email'];
 	$phone = $_POST['phone'];
