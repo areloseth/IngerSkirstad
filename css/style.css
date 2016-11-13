@@ -145,6 +145,10 @@ Homepage
 Products
 --- */
 
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:purple; }
+
 #portrait {
 	position: relative;
 	left: 2%;
@@ -254,12 +258,34 @@ input[type=email] {
 	width: 300px;
 	padding: 5px;
 }
+input[type=radio] {
+	margin-left: 10px;
+	margin-top: 5px;
+	width: 20px;
+	padding: 5px;
+}
 
 input[type=tel] {
 	margin-left: 10px;
 	margin-top: 5px;
 	width: 300px;
 	padding: 5px;
+}
+#silverText{ 
+	position: relative;
+	margin-top: -18px; 
+	left: 40px;
+}
+
+.radioText{
+	position: relative;
+	left: 250px;
+	margin-top: -18px;
+
+}
+.radioButtons{
+	position: relative;
+	left:210px;
 }
 
 #order_comments {
