@@ -38,6 +38,7 @@ Header image
 
 .header-img p {
 	position: absolute;
+	pointer-events: none;
 	bottom: 10px;
 	left: 20%;
 	width: 100%;
@@ -45,7 +46,6 @@ Header image
 	font-size: 30px;
 	color: white;
 }
-
 
 /* ---
 Navbar
